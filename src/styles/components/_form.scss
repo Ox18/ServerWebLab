@@ -1,0 +1,39 @@
+.form__group-content {
+  display: grid;
+  width: 100%;
+}
+
+.form__input-container {
+  input {
+    grid-area: 0 / 1;
+    grid-row: 1;
+    width: 100%;
+    border: none;
+    :hover {
+      border: none;
+    }
+    :active {
+      border: none;
+    }
+    :focus {
+      border: none;
+    }
+    outline: none;
+  }
+  font-size: 0.9rem;
+  padding: 6px;
+  border-radius: 7px;
+  border: 2px solid #ebebef;
+}
+
+.form__input-container:hover {
+  border: 2px solid #957ffa !important;
+}
+
+.form__input-container:active {
+  box-shadow: 0 0.125rem 0.25rem #957ffa !important;
+}
+
+.form__input-container-textarea {
+  min-height: 100px;
+}

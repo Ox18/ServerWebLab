@@ -3,3 +3,29 @@
   padding: 2rem;
   padding-bottom: 1rem;
 }
+
+.header__group-item {
+  display: flex;
+  flex-direction: row;
+  width: 100%;
+  text-align: center;
+  justify-content: space-between;
+  margin-bottom: 1rem;
+}
+
+.header__group-subitem {
+  display: inline-flex;
+  gap: 5px;
+}
+
+.header__group--item-title {
+  font-weight: bold;
+  color: $seconday-color;
+  text-transform: uppercase;
+}
+
+.header__group--item-count {
+  font-weight: bold;
+  color: $darkwhite-color;
+  font-size: 15px;
+}

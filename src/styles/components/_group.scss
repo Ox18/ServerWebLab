@@ -1,0 +1,15 @@
+.group__card--view {
+  padding: 2rem;
+  padding-bottom: 1rem;
+  display: grid;
+  gap: 1rem;
+  grid-auto-rows: auto;
+  grid-template-columns: repeat(auto-fill, minmax(20rem, 1fr));
+  column-gap: 38px;
+}
+
+.groud__card--item--list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+}

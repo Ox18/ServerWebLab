@@ -7,3 +7,36 @@
   background-color: $highlight-violet-color;
   color: $violet-color;
 }
+
+.button__plus {
+  font-size: 18px;
+  background: #e6e8eb;
+  color: #757981;
+  width: 25px;
+  border-radius: 100%;
+  height: 25px;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.btn__content {
+  border: none;
+}
+.btn__primary {
+  background-color: #552cf6 !important;
+}
+.btn__white {
+  color: #000;
+  background-color: #fff !important;
+}
+.btn__white:hover {
+  color: #000 !important;
+}
+.btn__update {
+  background-color: #2dbca2 !important;
+}
+.btn__delete {
+  background-color: #f9371c !important;
+}

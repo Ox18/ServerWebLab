@@ -1,0 +1,40 @@
+.card__container {
+  background-color: $white-color;
+  min-height: 160px;
+  padding: 1rem;
+  border-radius: 7px;
+}
+
+.card__container-drag {
+  opacity: 0.5;
+}
+
+.card__container--title {
+  font-size: 0.9rem;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+.card__container--description {
+  font-size: 0.8rem;
+  margin-bottom: 1rem;
+  color: #a4a3a3;
+}
+.card__container--option {
+  display: flex;
+  justify-content: end;
+}
+
+.card__container--empty {
+  text-align: center;
+  font-size: 0.8rem;
+  color: #757981a3;
+}
+
+.card__container--fetch {
+  color: #a4a3a3;
+  font-weight: bold;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 0.5rem;
+}

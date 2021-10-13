@@ -10,11 +10,22 @@
     "@types/node": "^12.0.0",
     "@types/react": "^17.0.0",
     "@types/react-dom": "^17.0.0",
+    "@types/styled-components": "^5.1.15",
+    "animate.css": "^4.1.1",
     "axios": "^0.23.0",
     "classnames": "^2.3.1",
+    "jsdoc": "^3.6.7",
     "react": "^17.0.2",
+    "react-dnd": "^14.0.4",
+    "react-dnd-html5-backend": "^14.0.2",
     "react-dom": "^17.0.2",
+    "react-icons": "^4.3.1",
+    "react-loading-skeleton": "^2.2.0",
+    "react-redux": "^7.2.5",
     "react-scripts": "4.0.3",
+    "reactstrap": "^8.10.0",
+    "redux": "^4.1.1",
+    "redux-thunk": "^2.3.0",
     "sass": "^1.42.1",
     "styled-components": "^5.3.1",
     "typescript": "^4.1.2",
@@ -24,7 +35,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "docs": "jsdoc -c jsdoc.json"
   },
   "eslintConfig": {
     "extends": [
