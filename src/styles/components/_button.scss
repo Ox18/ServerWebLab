@@ -1,0 +1,9 @@
+.button__primary {
+  background-color: $white-color;
+  border: none;
+}
+
+.button__primary--active {
+  background-color: $highlight-violet-color;
+  color: $violet-color;
+}
